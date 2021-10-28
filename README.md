@@ -20,3 +20,6 @@ After a day of attempts and the eventual bricking of my copy of Kali Linux being
     user: root
     password: root
 -Change the defualt password to root user to something a bit more secure.
+
+
+-----------------------------------------------------------------Network Configuration------------------------------------------------------------------
