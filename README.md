@@ -10,7 +10,7 @@ Required Items:
 -16GB SD Card
 -Archlinux ARM image
 
-------------------------------------------------------------Installing Archlinux ARM OS to Raspberry PI------------------------------------------------------------
+-------------------------------------------------------Installing Archlinux ARM OS to Raspberry PI-------------------------------------------------------
 
 -Using Win32DiskManager or by following the commands given on the Archlinux ARM Installation guide, partition and install Archlinux ARM OS to the Raspberry PI.
     
