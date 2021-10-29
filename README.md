@@ -13,14 +13,15 @@ Required Items:
 -------------------------------------------------------Installing Archlinux ARM OS to Raspberry PI------------------------------------------------------
 
 -Using Win32DiskManager or by following the commands given on the Archlinux ARM Installation guide, partition and install Archlinux ARM OS to the Raspberry PI.
-    
-After a day of attempts and the eventual bricking of my copy of Kali Linux being ran in a VirtualBox, I was finally able to get a working copy of Archlinux on my       raspberry PI
+After a day of attempts and the eventual bricking of my copy of Kali Linux being ran in a VirtualBox, I was finally able to get a working copy of Archlinux on my
+Raspberry PI
     
 -Use the default login:
     user: root
     password: root
 -Change the defualt password to root user to something a bit more secure.
-
+    # passwd
+-Enter new password twice to change.
 
 -----------------------------------------------------------------Network Configuration------------------------------------------------------------------
 
@@ -30,9 +31,24 @@ After a day of attempts and the eventual bricking of my copy of Kali Linux being
     /etc/hosts
     
 -Then restart network:
-    rc.d restart network
+    # rc.d restart network
     
 ---------------------------------------------------------------System Update and Packages--------------------------------------------------------------
 
-
-
+-Update system and install required packages:
+    # pacman -Syu
+    # pacman-key --init (I used pacman-key --populate was also used...not sure if that is required? Seems to work fine... for now)
+    
+-Update system again...
+    # pacman -Syu
+    
+-Next, lets install a few packages:
+    # pacman -S vim
+    # pacman -S htop
+    # pacman -S tcpdump
+    
+-Reboot to apply updates:
+    # reboot
+    
+-To check how much memory is available:
+    # htop
