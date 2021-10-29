@@ -32,7 +32,7 @@ After a day of attempts and the eventual bricking of my copy of Kali Linux being
 -Then restart network:
     rc.d restart network
     
-----------------------------------------------------------------System Update and Packages--------------------------------------------------------------
+---------------------------------------------------------------System Update and Packages--------------------------------------------------------------
 
 
 
