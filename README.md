@@ -23,3 +23,16 @@ After a day of attempts and the eventual bricking of my copy of Kali Linux being
 
 
 -----------------------------------------------------------------Network Configuration------------------------------------------------------------------
+
+-Still working on this bit... stay tuned.
+-Known files that need to be edited:
+    /etc/rc.conf
+    /etc/hosts
+    
+-Then restart network:
+    rc.d restart network
+    
+-----------------------------------------------------------------System Update and Packages-----------------------------------------------------------------
+
+
+
