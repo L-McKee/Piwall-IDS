@@ -16,7 +16,7 @@ Required Items:
 
 -Using Win32DiskManager or by following the commands given on the Archlinux ARM Installation guide, partition and install Archlinux ARM OS to the Raspberry PI.
 After a day of attempts and the eventual bricking of my copy of Kali Linux being ran in a VirtualBox, I was finally able to get a working copy of Archlinux on my
-Raspberry PI
+Raspberry PI.
     
 -Use the default login:
 
@@ -48,7 +48,7 @@ Raspberry PI
 
     # pacman -Syu
     # pacman-key --init
-    (I used pacman-key --populate was also used...not sure if that is required? Seems to work fine... for now)
+    (I used pacman-key --populate was also...not sure if that is required? Seems to work fine... for now)
     
 -Update system again...
 
