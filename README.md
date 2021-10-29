@@ -3,17 +3,11 @@ Raspberry Pi project that configures the PI as a gateway firewall and IDS.
 This document will be more of a step-by-step and notebook on the project.
 
 Required Items:
-
 -Raspberry PI 3-B v1.2
-
 -HDMI cable
-
 -Ethernet cable
-
 -Micro-USB power adapter
-
 -16GB SD Card
-
 -Archlinux ARM image
 
 
