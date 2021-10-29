@@ -52,3 +52,4 @@ Raspberry PI
     
 -To check how much memory is available:
     # htop
+
