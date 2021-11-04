@@ -64,7 +64,27 @@ Raspberry PI.
 
     # reboot
     
--To check how much memory is available:
+-To check how much memory is available (just a nice tool to have it seems):
 
     # htop
+    
+-----------------------------------------------------------------Adding Another User-----------------------------------------------------------------
 
+-To add another user:
+
+    # useradd -m -g users -G optical,storage,video,wheel,power -s /bin/bash USERNAME
+    
+-Create new password for user:
+
+    # passwd USERNAME
+    
+-Install sudo package to enable running commands as root and allow members of the group "wheel" to execute as root:
+
+    # pacman -S sudo
+    # visudo
+    
+-Uncomment this line to allow root execution:
+    
+    %wheel ALL=(ALL) ALL
+    
+-Now we should be able to logout of root user for good and login to the new user.
