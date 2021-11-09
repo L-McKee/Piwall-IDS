@@ -31,16 +31,17 @@ Raspberry PI.
 
 -----------------------------------------------------------------Network Configuration------------------------------------------------------------------
 
--Still working on this bit... stay tuned.
+-Finally getting into some reading that is helping. Installed NetworkManager to help with DHCP, static IPs, etc...
+-Always start with a good ol' update/upgrade:
 
--Known files that need to be edited:
-
-    /etc/rc.conf
-    /etc/hosts
+    sudo pacman -Syu
     
--Then restart network:
+-Install NetworkManager and do another update/upgrade:
 
-    # rc.d restart network
+    sudo pacman -S networkmanager
+    sudo pacman -Syu
+
+
     
 ---------------------------------------------------------------System Update and Packages--------------------------------------------------------------
 
@@ -64,9 +65,11 @@ Raspberry PI.
 
     # reboot
     
--To check how much memory is available (just a nice tool to have it seems):
+-Kind of like Task Manager....:
 
     # htop
+    
+-Looks good.
     
 -------------------------------------------------------------------Adding Another User-------------------------------------------------------------------
 
